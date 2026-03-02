@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background: #2563eb; 
+    background-image: url(background.jpeg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+     font-family: "segoe ui, sans-serif";
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 1000px;
+    padding: 150px;
+}
+.photo frame{
+    width: 350px;
+    height: 450px;
+    background-color: #fdfaf1;
+    border-radius: 200px 200px 200px 200px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 5px solid rgba(255, 255, 255, 0.3);
+}
+.photo frame img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.bunga {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    
+}
+
+.intro-text p:first-child {
+    font-family: 'Brush Script MT', cursive; /* Font Hello kenalin aku */
+    font-size: 1.5rem;
+    color: #ff91af; 
+}
+
+h1 {
+    font-family: 'Arial Black', sans-serif;
+    font-size: 4rem;
+    line-height: 0.9;
+    margin: 10px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.pink-line {
+    width: 80px;
+    height: 5px;
+    background-color: #ff91af;
+    margin: 20px 0;
+}
+
+.tagline {
+    font-size: 1rem;
+    max-width: 350px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 15px;
+}
+
+.nav-btn {
+    text-decoration: none;
+    color: #ff91af;
+    padding: 8px 15px;
+    border: 2px dashed rgba(255, 255, 255, 0.5); 
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* ===================================================
+    TENTANG SAYA
+   =================================================== */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+.about-page {
+    height: 100vh;
+    width: 100%;
+    background: radial-gradient(circle at 60% 50%, #0033ff 0%, #0019bf 60%, #000e6b 100%);
+    display: flex;
+    overflow: hidden;
+    font-family: 'librebaskerville-italic', serif;
+}
+
+.main-container { display: flex; width: 100%; height: 100%; }
+.photo-section { flex: 1; display: flex; align-items: flex-end; }
+.zoom-photo { height: 110%; width: auto; margin-left: -50px; }
+.content-section { flex: 1.5; display: flex; flex-direction: column; justify-content: center; padding: 0 5%; color: white; }
+
+.top-frame-pink {
+    border: 1.5px solid #ffb6c1; 
+    padding: 30px 40px;
+    position: relative; 
+    border-radius: 6px;
+    margin-bottom: 10px;
+    max-width: 90%;
+}
+.ribbon-icon { position: absolute; top: -83px; left: -80px; width: 200px; z-index: 10; }
+.title-area { display: flex; align-items: baseline; margin: 10px 0; position: relative; }
+
+.font-tentang { 
+    font-family: liberbaskerville-italic, serif; 
+    font-size: 100px; 
+    line-height: 1;
+    text-shadow: 4px 0px 0px hwb(309 21% 0% / 0.963); 
+}
+
+.saya-container { position: relative; display: inline-block; margin-left: 15px; }
+
+.font-saya { 
+    font-size: 140px; 
+    font-weight: bold;
+    line-height: 1;
+    text-shadow: 4px 0px 0px hwb(309 21% 0% / 0.963); 
+}
+.top-frame-pink p {
+    font-size: 1.2rem; 
+    line-height: 1.8; 
+    margin-bottom: 15px;
+    color: white;
+}
+
+
+.bottom-description p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: hsl(0, 0%, 100%);
+    max-width: 230%; 
+}
+
+
+.butterfly-top-right {
+    position: absolute;
+    width: 140px;
+    top: 20px; 
+    right: -85px; 
+    transform: rotate(15deg);
+}
+
+
+.nav-holder { margin-top: 25px; }
+.btn-home {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border: 1.5px solid white;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+.btn-home:active {
+    background-color: #ffb6c1; 
+    color: #0019bf;
+}
+
+.bottom-description { max-width: 85%; line-height: 1.6; font-size: 1rem; }
+
+/* =====================================
+               PENDIDIKAN
+   ===================================== */
+
+#page-pendidikan {
+    background-color: #0f172a; 
+    background-image: radial-gradient(#1e293b 2px, transparent 2px);
+    background-size: 30px 30px;
+    font-family: 'Fredoka', sans-serif;
+    color: #f1f5f9;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+.hero-title {
+    font-family: 'Caveat', cursive;
+    font-size: 6rem;
+    text-align: center;
+    color: #38bdf8; 
+    text-shadow: 4px 4px 0px #0ea5e9;
+    margin: 40px 0;
+}
+
+
+.edu-item {
+    background: #1e293b; 
+    border: 3px solid #38bdf8;
+    border-radius: 25px;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    box-shadow: 8px 8px 0px #0ea5e9;
+    transition: 0.3s;
+}
+
+.edu-item:hover {
+    transform: scale(1.03) rotate(1deg);
+    background: #334155;
+}
+
+
+.school-name {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #e2e8f0;
+    margin: 0;
+}
+
+
+.btn-home {
+    display: inline-block;
+    margin: 20px;
+    padding: 12px 25px;
+    background: #0ea5e9;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(14, 165, 233, 0.3);
+    transition: 0.3s;
+}
+
+.btn-home:hover {
+    background: #38bdf8;
+    transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+    .hero-title { font-size: 4rem; }
+    .layout-grid { padding: 0 20px; }
+}
+/* =====================================
+               PENGALAMAN
+   ===================================== */
+
+
+.pengalaman-page {
+    background-color: #0f172a; 
+    background-image: radial-gradient(#1e293b 2px, transparent 2px);
+    background-size: 30px 30px;
+    font-family: 'Fredoka', sans-serif;
+    color: #f1f5f9;
+    min-height: 100vh;
+}
+
+.judul-utama {
+    font-family: 'Caveat', cursive;
+    font-size: 5.5rem;
+    color: #38bdf8; /* Biru Cerah */
+    text-shadow: 4px 4px 0px #0ea5e9;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.teks-monolog {
+    letter-spacing: 5px;
+    font-size: 0.9rem;
+    color: #7dd3fc;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.item-teater {
+    background: #1e293b;
+    border: 3px solid #38bdf8;
+    border-radius: 30px; /* Sangat membulat agar cute */
+    padding: 35px;
+    margin-bottom: 30px;
+    position: relative;
+    box-shadow: 10px 10px 0px #0ea5e9; /* Shadow kaku ala stiker */
+    transition: 0.3s ease;
+}
+
+.item-teater:hover {
+    transform: translateY(-10px) rotate(-1deg);
+    background: #334155;
+}
+
+.number-tag {
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    background: #0ea5e9;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    border: 2px solid #38bdf8;
+}
+
+.item-teater h3 {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 2rem;
+    color: #f1f5f9;
+    margin-bottom: 5px;
+}
+
+.nama-event {
+    font-family: 'Caveat', cursive;
+    font-size: 1.4rem;
+    color: #38bdf8;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.description-box p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #cbd5e1;
+    margin-bottom: 8px;
+}
+
+
+.tombol-kembali {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0ea5e9;
+    color: white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 20px;
+    box-shadow: 0 4px 15px rgba(14, 165, 233, 0.3);
+}
