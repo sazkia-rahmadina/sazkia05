@@ -1,0 +1,81 @@
+
+.keahlian-page {
+    background-color: #020617 !important; 
+    background-image: none !important;    
+    font-family: 'Fredoka', sans-serif;
+    color: #f1f5f9;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.container-keahlian {
+    max-width: 1000px;
+    width: 100%;
+    text-align: center;
+}
+
+.judul-utama {
+    font-family: 'Caveat', cursive !important;
+    font-size: 5.5rem !important;
+    color: #38bdf8;
+    margin-bottom: 5px;
+    text-shadow: 3px 3px 0px #0ea5e9;
+}
+
+.sub-judul {
+    color: #94a3b8;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+}
+
+.list-keahlian {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.item-keahlian {
+    background: #1e293b; 
+    border: 3px solid #38bdf8;
+    border-radius: 25px;
+    padding: 35px 25px;
+    box-shadow: 10px 10px 0px #0ea5e9; 
+    transition: 0.3s ease-in-out;
+}
+
+.item-keahlian:hover {
+    transform: translateY(-10px);
+    box-shadow: 15px 15px 0px #38bdf8;
+}
+
+.icon-box {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.item-keahlian h3 {
+    font-family: 'Fredoka', sans-serif;
+    color: #38bdf8;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+
+.item-keahlian p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #cbd5e1;
+}
+.btn-back-cute {
+    background: #0ea5e9;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8rem;
+    box-shadow: 4px 4px 0px #38bdf8;
+    display: inline-block;
+    margin-bottom: 30px;
+}
